@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes ripple {
+  0%, 100% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(0);
+  }
+  50% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(50px);
+  }
+}
+
+@keyframes ripple2 {
+  0%, 100% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(0);
+  }
+  50% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(40px);
+  }
+}
+
+@keyframes ripple3 {
+  0%, 100% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(0);
+  }
+  50% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(60px);
+  }
+}
+
+@keyframes ripple4 {
+  0%, 100% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(0);
+  }
+  50% {
+    transform: perspective(1500px) rotateX(20deg) translateZ(45px);
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #0a0a0a 0%, #181818 50%, #0a0a0a 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.geometric-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+  perspective: 2000px;
+  transform-style: preserve-3d;
+  background: linear-gradient(135deg, #0a0a0a 0%, #181818 50%, #0a0a0a 100%);
+  background-attachment: fixed; 
+}
+
+.geometric-shape {
+  position: absolute;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  border: 2px solid rgba(255, 105, 180, 0.5);
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.15) 0%, rgba(219, 39, 119, 0.08) 100%);
+  box-shadow: 
+    inset 0 0 30px rgba(255, 105, 180, 0.25),
+    0 0 30px rgba(255, 105, 180, 0.2);
+}
+
+.shape-1 {
+  width: 150px;
+  height: 150px;
+  top: 2%;
+  left: 2%;
+  animation: ripple 6s ease-in-out infinite;
+  border-color: rgba(255, 105, 180, 0.6);
+}
+
+.shape-2 {
+  width: 120px;
+  height: 120px;
+  top: 35%;
+  left: 12%;
+  animation: ripple2 7s ease-in-out infinite 0.5s;
+  border-color: rgba(255, 20, 147, 0.5);
+}
+
+.shape-3 {
+  width: 180px;
+  height: 180px;
+  top: 15%;
+  right: 10%;
+  animation: ripple3 8s ease-in-out infinite 1s;
+  border-color: rgba(219, 39, 119, 0.55);
+}
+
+.shape-4 {
+  width: 140px;
+  height: 140px;
+  top: 50%;
+  right: 20%;
+  animation: ripple4 6.5s ease-in-out infinite 1.5s;
+  border-color: rgba(255, 105, 180, 0.5);
+}
+
+.shape-5 {
+  width: 160px;
+  height: 160px;
+  bottom: 20%;
+  left: 20%;
+  animation: ripple 7.5s ease-in-out infinite 2s;
+  border-color: rgba(255, 20, 147, 0.55);
+}
+
+.shape-6 {
+  width: 130px;
+  height: 130px;
+  bottom: 15%;
+  right: 8%;
+  animation: ripple2 6s ease-in-out infinite 2.5s;
+  border-color: rgba(255, 105, 180, 0.5);
+}
+
+
+
+
+
+

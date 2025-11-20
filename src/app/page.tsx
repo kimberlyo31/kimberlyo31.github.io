@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
 import { HiChevronDown } from "react-icons/hi"
 import ProjectsCarousel from '../components/ProjectsCarousel'
-
+ 
 export default function Home() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 

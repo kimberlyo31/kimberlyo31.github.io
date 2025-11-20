@@ -9,7 +9,7 @@ interface Project {
   repo?: string
   techstack?: string[]
 }
-
+ 
 interface ProjectsCarouselProps {
   projects: Project[]
 }

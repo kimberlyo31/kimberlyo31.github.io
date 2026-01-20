@@ -13,33 +13,33 @@ export default function Home() {
 
   const workHistory = [
     {
-      title: "Salesforce Developer/Analyst Sr.",
+      title: "Developer/Analyst Sr.",
       company: "Reliance Matrix",
       period: "June 2025 - Present",
       description: "Leading development of full-stack applications using React and Node.js",
       highlights: [
-        "Led the full transition from Salesforce Change Sets to a CI/CD pipeline, designing and implementing custom YAML-based Azure DevOps workflows that automated deployments across dev, QA, UAT, and production environments",
-        "Built and maintained Git-based branching and release strategies, training and supporting developers to adopt modern version control practices, significantly reducing deployment errors and manual effort",
-        "Engineered a major performance improvement for a document download application, reducing runtime from several hours to ~40 minutes through optimized SOQL queries, batch processing, and efficient API utilization",
-        "Collaborated on the Salesforce–Ushur integration, contributing to data model alignment, API integration, and automation design to streamline customer communications and case management",
-        "Championed DevOps best practices within the Salesforce team, establishing deployment governance standards and reusable pipeline templates for scalable future development"
+        "Led the move from traditional Salesforce Change Sets to a full CI/CD pipeline by designing custom Azure DevOps YAML workflows that automated deployments across dev, QA, UAT, and production, making releases faster, safer, and far more reliable.",
+        "Built a Salesforce Member Hub leveraging Python and REST API integrations to ensure accurate claimant identification, prevent duplicate payments, and support secure end-to-end payment processing with Citi.",
+        "Developed and supported Python services to bridge Salesforce and Ushur, aligning data models, orchestrating workflows, and exposing scalable APIs to support customer communications and case management.",
+        "Provided technical leadership on an Email-to-Case automation initiative by reviewing Python and Apex logic, guiding architectural decisions, and overseeing production deployment to ensure stability and maintainability.",
+        "Partnered with stakeholders to translate business requirements into robust backend solutions, emphasizing observability, error handling, and long-term scalability."
       ],
       techstack: [
         "Salesforce","Python","Postman","REST API","YAML","Azure DevOps", "Git"
       ]
     },
     {
-      title: "Senior Associate (Salesforce Developer)",
+      title: "Senior Associate (Salesforce/Python Developer)",
       company: "Macquarie",
       period: "Aug 2021 - June 2025",
       description: "Salesforce Developer and Admin",
       highlights: [
-        "Designed and implemented a Python-based data integration pipeline to import product data directly into Salesforce, eliminating over 30 hours of manual work monthly and improving data consistency across environments",
-        "Developed robust Apex classes, triggers, and Lightning Web Components (LWC) to deliver scalable, high-performance solutions across Sales and Service functions, enhancing user experience and platform efficiency",
-        "Directed production support for six Salesforce instances, diagnosing and resolving high-priority issues within a six-hour turnaround, minimizing downtime and maintaining business continuity",
-        "Managed and optimized CI/CD processes, overseeing sprint-end releases and ensuring smooth deployments through automated pipelines and Git-based version control practices",
-        "Administered multiple Salesforce orgs, including user management, permission sets, security configuration, validation rules, and Flow automation, ensuring system integrity and compliance with internal controls.",
-        "Maintained comprehensive documentation for all custom written code, common production support issues, and new joiner information ensuring knowledge transfer and effective collaboration within the team"
+        "Designed and implemented a Python data integration pipeline that imported financial product data into Salesforce, eliminating over 30 hours of manual processing per month and ensuring cross-environment consistency.",
+        "Built production-grade Apex services and Lightning Web Components using JavaScript to deliver scalable, high-performance features to support Sales and Service teams within a large-scale financial services platform.",
+        "Developed Python workflows for financial data transformation, validation, and synchronization, increasing the reliability of upstream market data feeds and downstream client-facing systems.",
+        "Managed and streamlined CI/CD processes by overseeing sprint-end releases, enhancing automated pipelines, and maintaining Git-based version control practices.",
+        "Administered multiple Salesforce orgs supporting asset management and capital markets functions to maintain strong governance and internal controls.",
+        "Led the modernization of a legacy Salesforce org to OmniStudio, migrating existing automation and implementing OmniScripts, DataRaptors, and Integration Procedures to support scalable, compliant financial workflows."
       ],
       techstack: [
         "Salesforce","Python","LWC","Apex","Bamboo"
@@ -100,6 +100,12 @@ export default function Home() {
       description: "Developed a genetic algorithm to generate a line of 25 segments, optimizing the path from point A to point B",
       repo: "https://github.com/kimberlyo31/GeneticAlgorithm",
       techstack: ["Java"]
+    },
+    {
+      title: "Shippensburg University Media Archive",
+      description: "Built an online university media archive and digital yearbook using Ruby on Rails, featuring secure authentication, role-based permissions, and file upload and download capabilities for managing student content.",
+      repo: "",
+      techstack: ["Ruby on Rails"]
     }
   ]
   return (
@@ -169,7 +175,7 @@ export default function Home() {
         
         <div className="space-y-8">
           <p className="text-xl text-slate-300 max-w-4xl text-center mx-auto">
-            I am a Salesforce Developer with a software engineering background and a focus on building reliable, scalable systems. I love working at the intersection of backend engineering, automation, and user experience—whether that&apos;s designing clean data pipelines, improving development workflows, or building apps that feel intuitive and fast. 
+            I&apos;m a Salesforce Developer and Python Engineer who loves working on finance-driven problems and building systems people can actually trust. I have spent my career in financial services designing and maintaining Salesforce platforms alongside Python services that move, validate, and process financial and payment data at scale. I enjoy the challenge of regulated environments, making complex workflows feel simple, ensuring data accuracy, and automating the parts that shouldn&apos;t be manual. Whether I&apos;m building APIs, integrating enterprise systems, or improving CI/CD and reliability, I&apos;m motivated by the real-world impact of finance and the satisfaction of turning messy requirements into clean, dependable software.
           </p>
           <div className="flex justify-center gap-4">
             <a

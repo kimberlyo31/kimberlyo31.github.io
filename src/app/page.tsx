@@ -281,10 +281,7 @@ export default function Home() {
 
             <h3 className="text-2xl font-semibold text-pink-400 mb-3">Certifications</h3>
             <p className="text-slate-300 text-lg">
-              Salesforce Administrator | Salesforce Platform Developer I
-=======
               Salesforce Platform Developer I
->>>>>>> 7788d7a815e794f3079efb1e1431e3ea3e7c5aa8
             </p> 
 
           </div>

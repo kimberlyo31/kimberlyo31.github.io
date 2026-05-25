@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { FaGithub } from "react-icons/fa";
+import { FaCloud, FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
 import { HiChevronDown } from "react-icons/hi"
@@ -201,6 +201,14 @@ export default function Home() {
             >
               <FaFileDownload />
             </a>
+            <a
+              href="https://www.salesforce.com/trailblazer/kimberlyo31"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-pink-400 transition-colors text-2xl"
+            >
+              <FaCloud />
+            </a>            
           </div>
         </div>
       </section>
@@ -271,10 +279,10 @@ export default function Home() {
             <p className="text-lg text-slate-300 mb-1">Bachelor of Science in Software Engineering, Minor in Criminal Justice</p>
             <p className="text-slate-400 mb-4">Aug 2017 - May 2021</p>
 
-            {/* <h3 className="text-2xl font-semibold text-pink-400 mb-3">Certifications</h3>
+            <h3 className="text-2xl font-semibold text-pink-400 mb-3">Certifications</h3>
             <p className="text-slate-300 text-lg">
               Salesforce Administrator | Salesforce Platform Developer I
-            </p> */}
+            </p> 
 
           </div>
         </div>
@@ -357,6 +365,14 @@ export default function Home() {
               >
                 Resume
               </a>
+            <a
+              href="https://www.salesforce.com/trailblazer/kimberlyo31"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-pink-400 transition-colors text-2xl"
+            >
+              Trailhead
+            </a> 
             </div>
           </div>
         </div>

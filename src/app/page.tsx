@@ -369,7 +369,7 @@ export default function Home() {
               href="https://www.salesforce.com/trailblazer/kimberlyo31"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-300 hover:text-pink-400 transition-colors text-2xl"
+              className="text-pink-400 hover:text-pink-300 transition-colors"
             >
               Trailhead
             </a> 

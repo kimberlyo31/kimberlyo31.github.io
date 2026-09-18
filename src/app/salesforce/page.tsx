@@ -55,11 +55,17 @@ export default function SalesforcePortfolio() {
 
   const projects = [
     {
-      title: "Salesforce Member Hub",
+      title: "Salesforce Billing Sync",
       description: "A Salesforce platform with REST API integrations to ensure accurate claimant identification, prevent duplicate payments, and support secure end-to-end payment processing.",
-      repo: "",
+      repo: "https://github.com/kimberlyo31/grim-tech-billing-sync",
       techstack: ["Salesforce", "Apex", "REST API"]
     },
+    {
+      title: "Salesforce Ticket Hub",
+      description: "A Salesforce project for upgrading case functionality. Splits and routes cases.",
+      repo: "https://github.com/kimberlyo31/grim-ticket-hub",
+      techstack: ["Salesforce", "Apex", "REST API"]
+    },    
     {
       title: "OmniStudio Org Modernization",
       description: "Led the migration of a legacy Salesforce org to OmniStudio, implementing OmniScripts, DataRaptors, and Integration Procedures to support scalable, compliant financial workflows.",
@@ -67,17 +73,35 @@ export default function SalesforcePortfolio() {
       techstack: ["Salesforce", "OmniStudio", "Apex"]
     },
     {
-      title: "Attachment Exporter",
-      description: "Developed an attachment exporter that processes a list of Salesforce account IDs, retrieves all employee documents, stores in database, and downloads them into a structured ZIP archive",
-      repo: "",
-      techstack: ["Salesforce API", "Python", "sqlite"]
+      title: "AI Issue Triage",
+      description: "Classifies inbound issues with an LLM, flags likely duplicates, routes them to the right team, and escalates the ones that have blown past their SLA",
+      repo: "https://github.com/kimberlyo31/ai-issue-triage",
+      techstack: ["Python", "AI/LLM", "Anthropic"]
     },
-        {
+    {
       title: "SpaceTraders",
       description: "Built an app using the Space Traders API to explore the game mechanics, mastering API requests, and practice handling data",
       repo: "https://github.com/kimberlyo31/SpaceTraders",
       techstack: ["Python", "REST API", "Next.js"]
     },
+    {
+      title: "Salesforce Document Exporter",
+      description: "Developed an attachment exporter that processes a list of Salesforce account IDs, retrieves all employee documents, stores in database, and downloads them into a structured ZIP archive",
+      repo: "https://github.com/kimberlyo31/salesforce-document-exporter",
+      techstack: ["Python", "sqlite", "Salesforce API"]
+    },
+    {
+      title: "sf toolkit",
+      description: "A personal Salesforce dev toolkit CLI. Wraps the Salesforce CLI (sf) with three quality-of-life commands",
+      repo: "https://github.com/kimberlyo31/ai-issue-triage",
+      techstack: ["Python"]
+    },
+    {
+      title: "Shippensburg University Media Archive",
+      description: "Built an online university media archive and digital yearbook using Ruby on Rails, featuring secure authentication, role-based permissions, and file upload and download capabilities for managing student content.",
+      repo: "",
+      techstack: ["Ruby on Rails"]
+    }
     
   ]
 

@@ -59,24 +59,16 @@ export default function PythonJavaPortfolio() {
       techstack: [
         "Ruby on Rails", "Git"
       ]
-    },
-    {
-      title: "Resident Assistant",
-      company: "Shippensburg University",
-      period: "Aug 2019 - May 2021",
-      description: "Leadership and administration",
-      highlights: [
-        "Advocated for resident needs and implemented improvements, developing leadership, communication, and conflict resolution skills",
-        "Performed administrative duties such as budgeting, maintenance requests and incident reports",
-        "Acted as a first responder during emergency situations to support students"
-      ],
-      techstack: [
-        "Leadership", "Communication", "Administrative Functions"
-      ]
-    },
+    }
   ]
 
   const projects = [
+    {
+      title: "AI Issue Triage",
+      description: "Classifies inbound issues with an LLM, flags likely duplicates, routes them to the right team, and escalates the ones that have blown past their SLA",
+      repo: "https://github.com/kimberlyo31/ai-issue-triage",
+      techstack: ["Python", "AI/LLM", "Anthropic"]
+    },
     {
       title: "SpaceTraders",
       description: "Built an app using the Space Traders API to explore the game mechanics, mastering API requests, and practice handling data",
@@ -84,16 +76,16 @@ export default function PythonJavaPortfolio() {
       techstack: ["Python", "REST API", "Next.js"]
     },
     {
-      title: "Attachment Exporter",
+      title: "Salesforce Document Exporter",
       description: "Developed an attachment exporter that processes a list of Salesforce account IDs, retrieves all employee documents, stores in database, and downloads them into a structured ZIP archive",
-      repo: "",
+      repo: "https://github.com/kimberlyo31/salesforce-document-exporter",
       techstack: ["Python", "sqlite", "Salesforce API"]
     },
     {
-      title: "Genetic Algorithms",
-      description: "Developed a genetic algorithm to generate a line of 25 segments, optimizing the path from point A to point B",
-      repo: "https://github.com/kimberlyo31/GeneticAlgorithm",
-      techstack: ["Java"]
+      title: "sf toolkit",
+      description: "A personal Salesforce dev toolkit CLI. Wraps the Salesforce CLI (sf) with three quality-of-life commands",
+      repo: "https://github.com/kimberlyo31/ai-issue-triage",
+      techstack: ["Python"]
     },
     {
       title: "Shippensburg University Media Archive",

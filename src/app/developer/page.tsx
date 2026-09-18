@@ -12,32 +12,38 @@ export default function PythonJavaPortfolio() {
 
   const workHistory = [
     {
-      title: "Developer/Analyst Sr.",
+      title: "Senior Software Engineer",
       company: "Reliance Matrix",
       period: "June 2025 - Present",
       description: "Backend Developer",
       highlights: [
-        "Built a Python and REST API-driven claimant identification service to prevent duplicate payments and support secure end-to-end payment processing with Citi.",
-        "Developed and supported Python services to bridge Salesforce and Ushur, aligning data models, orchestrating workflows, and exposing scalable APIs to support customer communications and case management.",
-        "Provided technical leadership on an Email-to-Case automation initiative by reviewing Python logic and overseeing production deployment to ensure stability and maintainability.",
-        "Partnered with stakeholders to translate business requirements into robust backend solutions, emphasizing observability, error handling, and long-term scalability."
+        "Designed and built object-oriented backend services (Java, Python) and REST integrations for a national insurance provider's claims, member services, and payments systems.",
+        "Built a Member Hub service (Java, REST, React) to unify identity, deduplicate records, and securely transmit payment data to a downstream banking partner.",
+        "Developed integration logic to process and classify documents via REST, applying structured metadata and business rules.",
+        "Architected an LLM-powered analytics platform natively within Salesforce, integrating AWS Bedrock to perform real-time sentiment, risk, and category classification.",
+        "Maintained and extended enterprise applications (TypeScript, Java, Python) through feature development, bug fixes, refactoring, and technology upgrades.",
+        "Directed a development team delivering an automation initiative end-to-end, including code review and release standards.",
+        "Implemented CI/CD pipeline using GitHub workflows to automate releases across dev, QA, UAT, and Production.",
+        "Leveraged Claude and GitHub Copilot to accelerate development velocity, using AI pair-programming for code generation, debugging, and refactoring across Python and Salesforce codebases."
       ],
       techstack: [
-        "Python", "Postman", "REST API", "Git"
+        "Java", "Python", "TypeScript", "React", "REST API", "AWS Bedrock", "CI/CD", "GitHub", "Git"
       ]
     },
     {
-      title: "Senior Associate (Python Developer)",
+      title: "Senior Software Developer",
       company: "Macquarie",
       period: "Aug 2021 - June 2025",
       description: "Backend Developer",
       highlights: [
-        "Designed and implemented a Python data integration pipeline that imported financial product data into downstream systems, eliminating over 30 hours of manual processing per month and ensuring cross-environment consistency.",
-        "Developed Python workflows for financial data transformation, validation, and synchronization, increasing the reliability of upstream market data feeds and downstream client-facing systems.",
-        "Built Lightning Web Components using JavaScript to deliver scalable, high-performance features to support Sales and Service teams within a large-scale financial services platform."
+        "Wrote object-oriented backend logic (Java, Python) and components across six enterprise systems supporting public and private markets.",
+        "Built a data integration pipeline (Python, AWS, Docker) to import and reconcile product data across environments, eliminating 30+ hours of manual work monthly.",
+        "Developed visual reporting components using JavaScript and HTML.",
+        "Led modernization of a legacy platform, replacing manual workflows with modular, reusable backend components and creating interactive UIs with React.",
+        "Upgraded locally run processes to AWS workflows to transition to horizontally scaling cloud architecture."
       ],
       techstack: [
-        "Python", "JavaScript"
+        "Java", "Python", "AWS", "Docker", "JavaScript", "React"
       ]
     },
     {
@@ -71,12 +77,6 @@ export default function PythonJavaPortfolio() {
   ]
 
   const projects = [
-    {
-      title: "Portfolio Website",
-      description: "A personal website built with Next.js and Tailwind CSS.",
-      repo: "https://github.com/kimberlyo31/kimberlyo.github.io",
-      techstack: ["Next.js", "React", "Tailwind CSS"]
-    },
     {
       title: "SpaceTraders",
       description: "Built an app using the Space Traders API to explore the game mechanics, mastering API requests, and practice handling data",

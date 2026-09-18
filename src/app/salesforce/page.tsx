@@ -17,13 +17,17 @@ export default function SalesforcePortfolio() {
       period: "June 2025 - Present",
       description: "Salesforce Developer",
       highlights: [
-        "Led the move from traditional Salesforce Change Sets to a full CI/CD pipeline by designing custom Azure DevOps YAML workflows that automated deployments across dev, QA, UAT, and production, making releases faster, safer, and far more reliable.",
-        "Built a Salesforce Member Hub to ensure accurate claimant identification, prevent duplicate payments, and support secure end-to-end payment processing with Citi.",
-        "Provided technical leadership on an Email-to-Case automation initiative by reviewing Apex logic, guiding architectural decisions, and overseeing production deployment to ensure stability and maintainability.",
-        "Partnered with stakeholders to translate business requirements into robust Salesforce solutions, emphasizing observability, error handling, and long-term scalability."
+        "Delivered Salesforce solutions across Service and Experience Clouds supporting national insurance operations.",
+        "Led and mentored a team of 10 developers, providing technical guidance, code reviews, and support across development projects.",
+        "Migrated deployments from Change Sets to CI/CD using custom Github workflows, automating releases across environments.",
+        "Built Salesforce Member Hub integration to unify member identity and securely transmit approved claims payments via REST API to Citi Bank.",
+        "Developed the Salesforce-Ushur integration using REST API to classify claim documents and apply structured case metadata.",
+        "Maintained and extended enterprise applications (Typescript, Java, Python) through development, bug fixes and refactoring.",
+        "Architected an LLM-powered analytics platform natively within Salesforce, integrating AWS Bedrock to perform real-time sentiment, risk, and category classification.",
+        "Leveraged Claude and GitHub Copilot to accelerate development velocity, using AI pair-programming for code generation, debugging, and refactoring across Python and Salesforce codebase"
       ],
       techstack: [
-        "Salesforce", "Apex", "Azure DevOps", "YAML", "Git", "REST API"
+        "Salesforce", "Apex", "Azure DevOps", "YAML", "Git", "REST API", "AI/LLM", "Python"
       ]
     },
     {
@@ -32,29 +36,21 @@ export default function SalesforcePortfolio() {
       period: "Aug 2021 - June 2025",
       description: "Salesforce Developer and Admin",
       highlights: [
-        "Built production-grade Apex services and Lightning Web Components using JavaScript to deliver scalable, high-performance features to support Sales and Service teams within a large-scale financial services platform.",
-        "Managed and streamlined CI/CD processes by overseeing sprint-end releases, enhancing automated pipelines, and maintaining Git-based version control practices.",
-        "Administered multiple Salesforce orgs supporting asset management and capital markets functions to maintain strong governance and internal controls.",
-        "Led the modernization of a legacy Salesforce org to OmniStudio, migrating existing automation and implementing OmniScripts, DataRaptors, and Integration Procedures to support scalable, compliant financial workflows."
+        "Delivered Salesforce enhancements across six orgs in the Sales and Financial Services Clouds supporting asset management.",
+        "Led legacy org uplift to Financial Services Cloud and used Omnistudio to modernize workflows and improve scalability",
+        "Migrated 300,000+ records across Salesforce schema/objects to support Financial Services Cloud transition.",
+        "Collaborated with stakeholders to gather and analyze requirements, translating them into Salesforce solutions.",
+        "Designed and developed Salesforce Agentforce agents to automate financial services workflow.",
+        "Built and maintained Conga and CPQ workflows, extending pricing, approval, and contract processes.",
+        "Built a Python data pipeline to import product data into Salesforce, cutting 30+ hours of manual work monthly.",
+        "Maintained MuleSoft integrations between Salesforce and downstream platforms for a unified attribution workflow.",
+        "Upgraded locally ran processes to AWS workflows to transition to horizontally scaling cloud architecture"
       ],
       techstack: [
-        "Salesforce", "Apex", "LWC", "OmniStudio", "Bamboo", "Git"
+        "Salesforce", "Apex", "LWC", "OmniStudio", "Bamboo", "Git", "Mulesoft", "CPQ", "Conga", "Python", "Agentforce"
       ]
-    },
-    {
-      title: "Resident Assistant",
-      company: "Shippensburg University",
-      period: "Aug 2019 - May 2021",
-      description: "Leadership and administration",
-      highlights: [
-        "Advocated for resident needs and implemented improvements, developing leadership, communication, and conflict resolution skills",
-        "Performed administrative duties such as budgeting, maintenance requests and incident reports",
-        "Acted as a first responder during emergency situations to support students"
-      ],
-      techstack: [
-        "Leadership", "Communication", "Administrative Functions"
-      ]
-    },
+    }
+
   ]
 
   const projects = [
@@ -76,6 +72,13 @@ export default function SalesforcePortfolio() {
       repo: "",
       techstack: ["Salesforce API", "Python", "sqlite"]
     },
+        {
+      title: "SpaceTraders",
+      description: "Built an app using the Space Traders API to explore the game mechanics, mastering API requests, and practice handling data",
+      repo: "https://github.com/kimberlyo31/SpaceTraders",
+      techstack: ["Python", "REST API", "Next.js"]
+    },
+    
   ]
 
   return (
